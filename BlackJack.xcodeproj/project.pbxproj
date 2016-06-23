@@ -19,9 +19,13 @@
 		440FE75319464F8000C45D87 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 440FE73B19464F8000C45D87 /* UIKit.framework */; };
 		440FE75B19464F8000C45D87 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 440FE75919464F8000C45D87 /* InfoPlist.strings */; };
 		440FE77A1949037A00C45D87 /* FISBlackjackGameSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 440FE7791949037A00C45D87 /* FISBlackjackGameSpec.m */; };
-		4D0905021BBD785800E87D5B /* FISBlackjackPlayerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0905011BBD785800E87D5B /* FISBlackjackPlayerSpec.m */; settings = {ASSET_TAGS = (); }; };
-		4D6B31B91BBC7E7000063F43 /* FISCardSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6B31B81BBC7E7000063F43 /* FISCardSpec.m */; settings = {ASSET_TAGS = (); }; };
-		4D6B31BB1BBC864100063F43 /* FISCardDeckSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6B31BA1BBC864100063F43 /* FISCardDeckSpec.m */; settings = {ASSET_TAGS = (); }; };
+		4D0905021BBD785800E87D5B /* FISBlackjackPlayerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D0905011BBD785800E87D5B /* FISBlackjackPlayerSpec.m */; };
+		4D6B31B91BBC7E7000063F43 /* FISCardSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6B31B81BBC7E7000063F43 /* FISCardSpec.m */; };
+		4D6B31BB1BBC864100063F43 /* FISCardDeckSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6B31BA1BBC864100063F43 /* FISCardDeckSpec.m */; };
+		8FF5DA931D1C0A75000BF551 /* FISBlackjackGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF5DA921D1C0A75000BF551 /* FISBlackjackGame.m */; };
+		8FF5DA961D1C0A99000BF551 /* FISBlackjackPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF5DA951D1C0A99000BF551 /* FISBlackjackPlayer.m */; };
+		8FF5DA9B1D1C0B20000BF551 /* FISCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF5DA981D1C0B20000BF551 /* FISCard.m */; };
+		8FF5DA9C1D1C0B20000BF551 /* FISCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF5DA9A1D1C0B20000BF551 /* FISCardDeck.m */; };
 		F2972237E7DA49A6905DFEE3 /* libPods-BlackJackTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E5005EF7FF844B7FA7EAB2DC /* libPods-BlackJackTests.a */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +36,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = 440FE73319464F8000C45D87;
 			remoteInfo = BlackJack;
+		};
+		8FF5DA8A1D1B9E21000BF551 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FF5DA851D1B9E21000BF551 /* OOP-Cards-Model.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 44CFDE92189C389300238AA4;
+			remoteInfo = "OOP-Cards-Model";
+		};
+		8FF5DA8C1D1B9E21000BF551 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FF5DA851D1B9E21000BF551 /* OOP-Cards-Model.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 44CFDEAD189C389300238AA4;
+			remoteInfo = "OOP-Cards-ModelTests";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -55,6 +73,15 @@
 		4D0905011BBD785800E87D5B /* FISBlackjackPlayerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISBlackjackPlayerSpec.m; sourceTree = "<group>"; };
 		4D6B31B81BBC7E7000063F43 /* FISCardSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISCardSpec.m; sourceTree = "<group>"; };
 		4D6B31BA1BBC864100063F43 /* FISCardDeckSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISCardDeckSpec.m; sourceTree = "<group>"; };
+		8FF5DA851D1B9E21000BF551 /* OOP-Cards-Model.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "OOP-Cards-Model.xcodeproj"; path = "../../OOP-Cards-Model-ios-0616/OOP-Cards-Model.xcodeproj"; sourceTree = "<group>"; };
+		8FF5DA911D1C0A75000BF551 /* FISBlackjackGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISBlackjackGame.h; sourceTree = "<group>"; };
+		8FF5DA921D1C0A75000BF551 /* FISBlackjackGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISBlackjackGame.m; sourceTree = "<group>"; };
+		8FF5DA941D1C0A99000BF551 /* FISBlackjackPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISBlackjackPlayer.h; sourceTree = "<group>"; };
+		8FF5DA951D1C0A99000BF551 /* FISBlackjackPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISBlackjackPlayer.m; sourceTree = "<group>"; };
+		8FF5DA971D1C0B20000BF551 /* FISCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISCard.h; sourceTree = "<group>"; };
+		8FF5DA981D1C0B20000BF551 /* FISCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISCard.m; sourceTree = "<group>"; };
+		8FF5DA991D1C0B20000BF551 /* FISCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISCardDeck.h; sourceTree = "<group>"; };
+		8FF5DA9A1D1C0B20000BF551 /* FISCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISCardDeck.m; sourceTree = "<group>"; };
 		A70BF232F0013BAA10CE4E9D /* Pods-BlackJackTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlackJackTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlackJackTests/Pods-BlackJackTests.release.xcconfig"; sourceTree = "<group>"; };
 		E5005EF7FF844B7FA7EAB2DC /* libPods-BlackJackTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BlackJackTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0CD3D6DB35E96336DC638D8 /* Pods-BlackJackTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlackJackTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlackJackTests/Pods-BlackJackTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -120,8 +147,17 @@
 		440FE73D19464F8000C45D87 /* BlackJack */ = {
 			isa = PBXGroup;
 			children = (
+				8FF5DA851D1B9E21000BF551 /* OOP-Cards-Model.xcodeproj */,
+				8FF5DA971D1C0B20000BF551 /* FISCard.h */,
+				8FF5DA981D1C0B20000BF551 /* FISCard.m */,
+				8FF5DA991D1C0B20000BF551 /* FISCardDeck.h */,
+				8FF5DA9A1D1C0B20000BF551 /* FISCardDeck.m */,
 				440FE74619464F8000C45D87 /* FISAppDelegate.h */,
 				440FE74719464F8000C45D87 /* FISAppDelegate.m */,
+				8FF5DA911D1C0A75000BF551 /* FISBlackjackGame.h */,
+				8FF5DA921D1C0A75000BF551 /* FISBlackjackGame.m */,
+				8FF5DA941D1C0A99000BF551 /* FISBlackjackPlayer.h */,
+				8FF5DA951D1C0A99000BF551 /* FISBlackjackPlayer.m */,
 				440FE73E19464F8000C45D87 /* Supporting Files */,
 			);
 			path = BlackJack;
@@ -158,6 +194,15 @@
 				440FE75919464F8000C45D87 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8FF5DA861D1B9E21000BF551 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FF5DA8B1D1B9E21000BF551 /* OOP-Cards-Model.app */,
+				8FF5DA8D1D1B9E21000BF551 /* OOP-Cards-ModelTests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		C9FF1E8EABB68D5A450E5E8E /* Pods */ = {
@@ -234,6 +279,12 @@
 			mainGroup = 440FE72B19464F8000C45D87;
 			productRefGroup = 440FE73519464F8000C45D87 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 8FF5DA861D1B9E21000BF551 /* Products */;
+					ProjectRef = 8FF5DA851D1B9E21000BF551 /* OOP-Cards-Model.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				440FE73319464F8000C45D87 /* BlackJack */,
@@ -241,6 +292,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		8FF5DA8B1D1B9E21000BF551 /* OOP-Cards-Model.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "OOP-Cards-Model.app";
+			remoteRef = 8FF5DA8A1D1B9E21000BF551 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		8FF5DA8D1D1B9E21000BF551 /* OOP-Cards-ModelTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "OOP-Cards-ModelTests.xctest";
+			remoteRef = 8FF5DA8C1D1B9E21000BF551 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		440FE73219464F8000C45D87 /* Resources */ = {
@@ -300,8 +368,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FF5DA961D1C0A99000BF551 /* FISBlackjackPlayer.m in Sources */,
 				440FE74419464F8000C45D87 /* main.m in Sources */,
+				8FF5DA9B1D1C0B20000BF551 /* FISCard.m in Sources */,
+				8FF5DA9C1D1C0B20000BF551 /* FISCardDeck.m in Sources */,
 				440FE74819464F8000C45D87 /* FISAppDelegate.m in Sources */,
+				8FF5DA931D1C0A75000BF551 /* FISBlackjackGame.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
